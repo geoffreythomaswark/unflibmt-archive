@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="assets/" tuio="false" simulator="true">
+
+	<LibraryKit>
+		<Library type="swf" src="assets/openexhibits_assets.swf" />
+	</LibraryKit>
+
+	<PhotoAlbumViewer id="av" x="0" y="0" rotation="0" autoTextLayout="false" linkAlbums="true" gestureReleaseInertia="true" resetTime="600" videoScrollAction="stop" playOnComplete="true">
+
+		<Album id="front" loop="true" horizontal="true" applyMask="true" margin="8" visible="true" targetParent="false" mouseChildren="true" clusterBubbling="true" dragGesture="n-drag-album">
+
+			<Image name="1" src="1.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="2.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="3.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="4.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="5.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="7.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="8.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="9.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="10.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="11.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="12.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="13.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="14.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="15.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="16.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="17.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="18.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="19.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="20.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="21.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="22.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="23.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="24.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="25.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="26.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="27.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="28.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="29.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="30.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="31.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="32.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="33.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="34.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="35.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="36.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="37.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="38.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="39.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="40.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="41.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="42.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="43.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="44.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="45.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="46.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="47.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="48.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="49.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="50.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="51.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="52.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="53.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="54.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="55.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="56.png" width="1920" height="1080"/>
+
+		</Album>
+
+		<Album id="back" alpha=".5" loop="true" applyMask="true" horizontal="true" margin="8" visible="false" targetParent="false" dragGesture="n-drag-album">
+
+			<!-- 1 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 2 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 3 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 4 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 5 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 7 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 8 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Newly placed turnstiles enhance safety and collect data on use. This will be later analyzed to improve decision making." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 9* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+
+			<!-- 10 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Integrating the ITS Help Desk and Call Center with the Library Commons provides greater technological support." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+
+			<!-- 11 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="The collaborative study neighborhood created during summer 2013 was the first iteration of a learning commons in the library." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+
+			<!-- 12 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="The number of computers and laptops for checkout has risen to 400!" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 13 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="A new design, layout, and furniture makes for a more collaborative study space." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 14 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Over 1,400 electrical outlets and data connections were added." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 15* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 16* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 17* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="First Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 18* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 19 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="The second floor is an inviting study space and offers many options for comfortable, relaxing seating." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 20* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 21 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="This was the first major renovation since 2005." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 22 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="That's a decade ago!" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 23* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 24 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Natural light has been shown to improve health, happiness, and productivity." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 25 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="6 new study groups were added (no reservations required)." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 26 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Eight Media:Scapes were installed. These act as collobration stations where students can connect their devices and share info on 1 or 2 monitors." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 27 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="This design allows for a more open, inviting feel for students." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 28 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Seating has increased by 34% on the 1st and 2nd floors." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 29* -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Second Floor Renovations" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 30 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 31 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 32 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 32 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 33 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 34 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 35 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 36 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 37 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 38 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 39 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 40 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 41 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 42 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 43 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 44 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 45 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 46 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 47 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 48 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 49 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 50 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 51 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 52 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 53 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 54 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 55 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 56 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+		</Album>
+
+		<Menu class="menu_container" alpha="0.6" position="bottom" paddingLeft="30" paddingBottom="25" paddingRight="20" autoHide="false" visible="true">
+
+			<Button id="back-btn" class="back_btn" dispatch="down:back" hit="back-hit" initial="back-up" down="back-down" up="back-up" out="back-up">
+				<Container id="back-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="18" y="58" color="0xFFFFFF" scale="3" rotation="-90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="back-down">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="18" y="58" color="0xCCCCCC" scale="3" rotation="-90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="back-hit">
+					<Graphic id="back-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+			<Button id="forward-btn" class="forward_btn" dispatch="down:forward" hit="forward-hit" initial="forward-up" down="forward-down" up="forward-up" out="forward-up">
+				<Container id="forward-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="62" y="23" color="0xFFFFFF" scale="3" rotation="90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="forward-down">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="62" y="23" color="0xCCCCCC" scale="3" rotation="90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="forward-hit">
+					<Graphic id="forward-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+			<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+				<Container id="info-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="30" y="16" color="0xFFFFFF" scale="3" classRef="org.openexhibits.assets.Info" />
+				</Container>
+				<Container id="info-down">
+					<Graphic id="info-bg-down" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="30" y="16" color="0xCCCCCC" scale="3" classRef="org.openexhibits.assets.Info" />
+				</Container>
+				<Container id="info-hit">
+					<Graphic id="info-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+		</Menu>
+
+	</PhotoAlbumViewer>
+
+
+</cml>

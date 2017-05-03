@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="assets/" tuio="false" simulator="true">
+
+	<LibraryKit>
+		<Library type="swf" src="assets/openexhibits_assets.swf" />
+	</LibraryKit>
+
+	<PhotoAlbumViewer id="av" x="0" y="0" rotation="0" autoTextLayout="false" linkAlbums="true" gestureReleaseInertia="true" resetTime="600" videoScrollAction="stop" playOnComplete="true">
+
+		<Album id="front" loop="true" horizontal="true" applyMask="true" margin="8" visible="true" targetParent="false" mouseChildren="true" clusterBubbling="true" dragGesture="n-drag-album">
+
+			<Image name="NASA Logo" src="mt_demo.png" width="1920" height="1080"/>
+
+			<Image name="1" src="lc1.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="lc2.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="lc3.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="lc4.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="lc5.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="lg2.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="w1.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="w2.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="qr.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="w3.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="w4.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="w5.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="w6.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="s1.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="s2.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="s3.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="s4.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="s5.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="s6.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="s7.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="sat.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="sp2.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="sp1.png" width="1920" height="1080"/>
+
+			<Image name="NASA Logo" src="symp1.png" width="1920" height="1080"/>
+
+		</Album>
+
+		<Album id="back" alpha=".5" loop="true" applyMask="true" horizontal="true" margin="8" visible="false" targetParent="false" dragGesture="n-drag-album">
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Multitouch Demo - Dean's Leadership Council" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="David King demoing the Multitouch for the first time. Examples from OpenExhibits were used." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 1 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Commons Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="This was our first chance to unveil the Multitouch at a public event." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 2 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Commons Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Students and staff found the interface to be informative as well as intuitive." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 3 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Commons Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="The core of the Multitouch software is free/open-source and developed by OpenExhibits." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 4 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Commons Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Michael Kucsak and Geoff Wark demoing the Multitouch." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 5 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Commons Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Michael Kucsak and Geoff Wark demoing the Multitouch." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 6 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="LibGuides 2" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Our migration to LibGuides 2 occured earlier in the year. This upgrade provides a more responsive platform with a richer feature set." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="LibAnswers" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Ask a questions and get and answer 24/7/365!" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Group Study Rooms" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Reserve your group study room anytime, day or night." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="QR Codes for the Group Study Rooms" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="These 3D printed QR codes will be mounted outside the Group Study Rooms. Scanning one with your cellphone or tablet will take you directly to the reservation page. Expect to see them soon!" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Schedule Instruction" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Don’t wait for us to get back, schedule your Library Instruction time when you want." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Renew Library Materials" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Did you forget to return something before heading home? Renew them anywhere and anytime." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Create Alerts for New Material" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Want to be notified when something of interest is added to the collection? Set up an alert." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Find a Computer" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="See where computers are available in real-time." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 7 -->
+
+			<!-- 8 -->
+
+			<!-- 9 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Sculpture Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="A Multitouch app was used to display the build process of the sculptures." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+
+			<!-- 10 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Sculpture Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="A script was written so that the slides would automatically change while idle." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+
+			<!-- 11 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Sculpture Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Geoff Wark demos the Multitouch." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 12 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Sculpture Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Geoff and Michael discussing the OpenExhibits framework." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+
+			<!-- 13 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Sculpture Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Many people were intrigued by the technology." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 14 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Sculpture Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Michael shows off where the built-in computer is located." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 15 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="Library Sculpture Celebration" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Dr. Curry and Prof. Hager examine the content." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 16 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Satellite Dish" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Our satellite dish found new life with a partnership between Systems and Dr. Brian Kopp. His goal is to decode weather data from EUMETSAT." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 17 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="SoC Senior Project - MT CMS" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Systems often partners with computing students for their Senior Project course taught by Dr. Karthik Umapathy. This group developed a content management system for the Multitouch." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 18 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="SoC Senior Project - MT CMS" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="StrategyTech Solutions' poster for the Fall 2013 SoC Symposium." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 19 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="SoC Senior Project - SERVO" textAlign="center" width="1920"/>
+				<Text class="description" y="300" x="460" text="Our students for 2014 won the 1st overall prize at the Symposium. They designed a fully functional reservation system for the Group Study Rooms." width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+		</Album>
+
+		<Menu class="menu_container" alpha="0.6" position="bottom" paddingLeft="30" paddingBottom="25" paddingRight="20" autoHide="false" visible="true">
+
+			<Button id="back-btn" class="back_btn" dispatch="down:back" hit="back-hit" initial="back-up" down="back-down" up="back-up" out="back-up">
+				<Container id="back-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="18" y="58" color="0xFFFFFF" scale="3" rotation="-90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="back-down">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="18" y="58" color="0xCCCCCC" scale="3" rotation="-90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="back-hit">
+					<Graphic id="back-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+			<Button id="forward-btn" class="forward_btn" dispatch="down:forward" hit="forward-hit" initial="forward-up" down="forward-down" up="forward-up" out="forward-up">
+				<Container id="forward-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="62" y="23" color="0xFFFFFF" scale="3" rotation="90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="forward-down">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="62" y="23" color="0xCCCCCC" scale="3" rotation="90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="forward-hit">
+					<Graphic id="forward-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+			<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+				<Container id="info-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="30" y="16" color="0xFFFFFF" scale="3" classRef="org.openexhibits.assets.Info" />
+				</Container>
+				<Container id="info-down">
+					<Graphic id="info-bg-down" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="30" y="16" color="0xCCCCCC" scale="3" classRef="org.openexhibits.assets.Info" />
+				</Container>
+				<Container id="info-hit">
+					<Graphic id="info-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+		</Menu>
+
+	</PhotoAlbumViewer>
+
+
+</cml>

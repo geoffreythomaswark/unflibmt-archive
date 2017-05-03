@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml tuio="false" simulator="true">
+
+	<Stage fullscreen="true" />
+
+	<LibraryKit>
+		<Library type="swf" src="library/swfs/openexhibits_assets.swf" />
+	</LibraryKit>
+
+	<Background>
+		<Image id="default-bg" src="library/images/timeline-bg.png" visible="true"/>
+	</Background>
+
+
+	<Album x="20" y="120" margin="20" width="1880" height="890" backgroundAlpha="0" mouseChildren="true" clusterBubbling="true" dragGesture="album-drag" loop="true">
+
+
+		<RenderKit dataRootTag="museum">
+			<Renderer>
+				<TouchContainer width="600" height="890" mouseChildren="true">
+					<Graphic shape="rectangle" width="600" height="890" fill="color" color="0xffffff" lineStroke="0" alpha="0.7"/>
+					<TouchContainer mouseChildren="false" targetParent="true">
+						<Image src="{imagepath}" width="600" height="500"/>
+					</TouchContainer>
+					<TouchContainer mouseChildren="false" targetParent="true">
+						<Text text="{title}" y="520" textAlign="center" color="0x000000" fontSize="30" width="600" font="OpenSansRegular" selectable="false"/>
+						<Text text="{location}" y="580" textAlign="center" color="0x303030" fontSize="30" width="600" font="OpenSansRegular" selectable="false"/>
+						<Text text="{year}" y="620" textAlign="center" color="0x000000" fontSize="70" width="600" font="OpenSansRegular" selectable="false"/>
+						<Text text="{excerpt}" x="20" y="730" selectable="false" color="0x000000" fontSize="20" alpha="0.6" wordWrap="true" multiline="true" width="540" height="300" font="OpenSansRegular"/>
+					</TouchContainer>
+					<Button id="info-btn" class="info_btn" dispatch="{button-dispatch}" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up" x="530" y="830">
+						<Container id="info-up">
+							<Graphic alpha="0.5" shape="circle" radius="20" lineStroke="0" color="0x000000" />
+							<SWF alpha="1" x="15" y="8" color="0xFFFFFF" scale="1.6" classRef="org.openexhibits.assets.Info" />
+						</Container>
+						<Container id="info-down">
+							<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="0" color="0x474747"/>
+							<SWF alpha="0.5" x="15" y="8" color="0x000000" scale="1.6" classRef="org.openexhibits.assets.Info" />
+						</Container>
+						<Container id="info-hit" alpha="0">
+							<Graphic id="info-bg-down" shape="circle" radius="20" lineStroke="0" color="0x666666"/>
+						</Container>
+					</Button>
+
+					<TouchContainer id="{panel-id}" mouseChildren="true" visible="false">
+						<Graphic visible="true" shape="rectangle" width="600" height="890" fill="color" color="0x0000000" lineStroke="0" alpha="1" mouseChildren="false">
+							<Image src="{imagepath-2}" width="600" height="500"/>
+							<Text id="txt1" text="{museum-text}" x="50" y="540" width="500" height="860" color="0xffffff" wordWrap="true" multiline="true" fontSize="20" font="OpenSansRegular"/>
+						</Graphic>
+						<Button x="530" y="830" class="close_btn" dispatch="{button-dispatch}" hit="close-hit" initial="close-up" down="close-down" up="close-up" out="close-up" scale="1">
+							<Container id="close-up" class="up" >
+								<Graphic alpha="1" shape="circle" radius="20" lineStroke="0" color="0xffffff" />
+								<SWF alpha="1" x="11" y="11" color="0x000000" scale="1.6" ref="org.openexhibits.assets.Close"/>
+							</Container>
+							<Container id="close-down" class="down">
+								<Graphic alpha="1" shape="circle" radius="20" lineStroke="0" color="0x000000" />
+								<SWF alpha="1" x="11" y="11" color="0x000000" scale="1.6" ref="org.openexhibits.assets.Close" />
+							</Container>
+							<Container id="close-hit" class="hit">
+								<Graphic id="close-hit-bg" shape="circle" radius="20" alpha="0" />
+							</Container>
+						</Button>
+					</TouchContainer>
+				</TouchContainer>
+			</Renderer>
+
+			<RendererData>
+
+				<!-- 1 -->
+				<museum>
+					<button-dispatch>down:eartha</button-dispatch>
+					<panel-id>eartha</panel-id>
+					<imagepath>library/images/eartha1.png</imagepath>
+					<imagepath-2>library/images/eartha2.png</imagepath-2>
+					<title>Eartha M.M. White Collection</title>
+					<location>Document Range,</location>
+					<year>1831-1974</year>
+					<excerpt>Social welfare leader, educator, humanitarian, and entrepreneur, Eartha M.M. White (1876 - 1974) is a Jacksonville native who invested in the community and people.</excerpt>
+					<museum-text>White helped to establish many businesses and organizations including the Clara White Mission for black relief activities as well as the Eartha M.M. White Nursing Home. The collection includes correspondence, documents, memorabilia, photographs, and more chronicling twentieth century black history in Jacksonville and historical photographs of urban Jacksonville.</museum-text>
+				</museum>
+
+				<!-- 2 -->
+				<museum>
+					<button-dispatch>down:campjohn</button-dispatch>
+					<panel-id>campjohn</panel-id>
+					<imagepath>library/images/campjohn1.png</imagepath>
+					<imagepath-2>library/images/campjohn2.png</imagepath-2>
+					<title>Camp Joseph E. Johnston Collection</title>
+					<location>Document Range,</location>
+					<year>1917-1921</year>
+					<excerpt>The Northeast region of Florida served an important military role during both World Wars. Today’s Naval Air Station Jacksonville was previously Camp Joseph E. Johnston during World War I.</excerpt>
+					<museum-text>Camp Johnston operated as an Army training camp, October 15, 1917 - May 16, 1919. The Camp grew to a complex of over 600 buildings and held the nation's second largest rifle range. The collection consists primarily of the World War I correspondence of Wesley "Lee" Bouslog, a soldier from Indiana who arrived December 1917. During his six month stay, Bouslog sent 106 letters to his girlfriend, Opal Valentine Baker, in Indiana.</museum-text>
+				</museum>
+
+				<!-- 3 -->
+				<museum>
+					<button-dispatch>down:gamb</button-dispatch>
+					<panel-id>gamb</panel-id>
+					<imagepath>library/images/gamb1.png</imagepath>
+					<imagepath-2>library/images/gamb2.png</imagepath-2>
+					<title>Ed Gamble Cartoon Collection</title>
+					<location>Document Range,</location>
+					<year>1980-2010</year>
+					<excerpt>Ed Gamble is a nationally syndicated political cartoonist whose work has appeared in numerous national and international publications.</excerpt>
+					<museum-text>Ed Gamble served as the cartoonist for the Florida Times-Union newspaper, 1980 - 2010. The majority of the cartoons in the Gamble Collection originally appeared in the Times-Union on the editorial page. The collection consists of original drawings by Gamble, some containing publisher's marks and directions for printing. The vast majority of the drawings are monochromatic.</museum-text>
+				</museum>
+
+				<!-- 4 -->
+				<museum>
+					<button-dispatch>down:hatch</button-dispatch>
+					<panel-id>hatch</panel-id>
+					<imagepath>library/images/hatch1.png</imagepath>
+					<imagepath-2>library/images/hatch4.png</imagepath-2>
+					<title>Elisa Hatch Letters</title>
+					<location>Document Range,</location>
+					<year>1842-1843</year>
+					<excerpt>Elisa Hatch is a teacher at Boarding School for Young Ladies in Florida, two years prior to Florida's admission to statehood.</excerpt>
+					<museum-text>The correspondence consists of two letters, dated May 29, 1842 and July 23, 1843, addressed to Mr. and Mrs. Benjamin Comings, sent from Jacksonville, Florida. She describes her thoughts and experiences as a member of Southern aristocracy and her social obligations; family relations, home life, and gossip; health problems; and the local churches and community groups in Jacksonville.</museum-text>
+				</museum>
+
+				<!-- 5 -->
+				<museum>
+					<button-dispatch>down:flem</button-dispatch>
+					<panel-id>flem</panel-id>
+					<imagepath>library/images/flem1.png</imagepath>
+					<imagepath-2>library/images/flem2.png</imagepath-2>
+					<title>Fleming Family Letters</title>
+					<location>Document Range,</location>
+					<year>1879-1930</year>
+					<excerpt>The Fleming family was early settlers of Northeast Florida. George Fleming came to Florida, via Charleston, South Carolina, from Ireland ca. 1785 and became a large landowner.</excerpt>
+					<museum-text>George Fleming became a large landowner after receiving a number of grants of land from the Spanish government. In 1791, he married Sophia Fatio, daughter of a St. Johns River planter, Francis Fatio. The Fleming family grew to one daughter, Mary, and two sons, Lewis and George, Jr. They resided in St. Augustine and at their St. Johns River plantation, Hibernia, on Fleming Island.</museum-text>
+				</museum>
+
+				<museum>
+					<button-dispatch>down:flem3</button-dispatch>
+					<panel-id>flem3</panel-id>
+					<imagepath>library/images/flem5.png</imagepath>
+					<imagepath-2>library/images/flem6.png</imagepath-2>
+					<title>Fleming Family Letters</title>
+					<location>Document Range,</location>
+					<year>1879-1930</year>
+					<excerpt>The Fleming family was early settlers of Northeast Florida. George Fleming came to Florida, via Charleston, South Carolina, from Ireland ca. 1785 and became a large landowner.</excerpt>
+					<museum-text>Francis Philip Fleming, son of Lewis and his second wife Margaret Seton, was born in 1841 in Panama Park, Duval County. In 1861, he joined the Second Florida infantry and served in the Civil War. After the war, he studied law, was admitted to the Florida Bar in 1868, and became a partner in the Jacksonville law firm, Fleming & Daniel (later Fleming & Fleming). Fleming became a noted civic leader in Jacksonville, with increasing activities in state politics as a member of the Democratic executive committee.</museum-text>
+				</museum>
+
+				<museum>
+					<button-dispatch>down:flem4</button-dispatch>
+					<panel-id>flem4</panel-id>
+					<imagepath>library/images/flem7.png</imagepath>
+					<imagepath-2>library/images/flem8.png</imagepath-2>
+					<title>Fleming Family Letters</title>
+					<location>Document Range,</location>
+					<year>1879-1930</year>
+					<excerpt>The Fleming family was early settlers of Northeast Florida. George Fleming came to Florida, via Charleston, South Carolina, from Ireland ca. 1785 and became a large landowner.</excerpt>
+					<museum-text>The collection consists of the personal correspondence of Fleming Family members and others, circa 1879-1930. Most of the letters are from relatives and friends to the Francis Philip Fleming family members. The majority of the collection are condolence letters sent to Mrs. Francis P. Fleming, wife of the Governor, after his death on December 20, 1908.</museum-text>
+				</museum>
+
+
+				<!-- 6 -->
+				<museum>
+					<button-dispatch>down:holmes1</button-dispatch>
+					<panel-id>holmes1</panel-id>
+					<imagepath>library/images/holmes5.png</imagepath>
+					<imagepath-2>library/images/holmes4.png</imagepath-2>
+					<title>Rosa G. Holmes Walker Papers</title>
+					<location>Document Range,</location>
+					<year>1871-1943</year>
+					<excerpt>Rosa Holmes Walker, an African-American woman, was a successful funeral home director and businesswoman active in Jacksonville, Florida during the early twentieth century.</excerpt>
+					<museum-text>The collection consists ofledgers, volumes of client records, funeral home bills, and a few personal items. Inclusive years are 1871-1943, with the bulk of the materials from 1920-1930. Nineteenth century materials pertaining to the South Carolina business of the Glover family are also included.</museum-text>
+				</museum>
+
+				<museum>
+					<button-dispatch>down:holmes2</button-dispatch>
+					<panel-id>holmes2</panel-id>
+					<imagepath>library/images/holmes2_3.png</imagepath>
+					<imagepath-2>library/images/holmes1.png</imagepath-2>
+					<title>Rosa G. Holmes Walker Papers</title>
+					<location>Document Range,</location>
+					<year>1871-1943</year>
+					<excerpt>Rosa Holmes Walker, an African-American woman, was a successful funeral home director and businesswoman active in Jacksonville, Florida during the early twentieth century.</excerpt>
+					<museum-text>After the death of her husband, J. C. Holmes, in 1916, she operated the Holmes Funeral Directors, Inc. in Jacksonville. She later married Reverend Thomas H. B. Walker, a Methodist minister and author, in 1918, who managed real estate properties in Jacksonville and New York.</museum-text>
+				</museum>
+
+				<!-- 7 -->
+
+				<museum>
+					<button-dispatch>down:simons2</button-dispatch>
+					<panel-id>simons2</panel-id>
+					<imagepath>library/images/simons6.png</imagepath>
+					<imagepath-2>library/images/simons5.png</imagepath-2>
+					<title>George W. Simons, Jr. Planning Collection</title>
+					<location>Document Range,</location>
+					<year>1899-1993</year>
+					<excerpt>George W. Simons, Jr. was born in Portland, Oregon on February 23, 1891. He moved to Jacksonville, Florida in 1916 where he began his career in engineering as a prominent city planner in the Southeastern United States during the twentieth century.</excerpt>
+					<museum-text>The collection consists of the personal papers and business files of George W. Simons, Jr., His preparation of Florida's first comprehensive municipal plan (Jacksonville, 1929) launched his professional career as a municipal consultant. Over a forty year period he was retained by over seventy municipalities to prepare city, county, regional and zoning plans, reports and studies.</museum-text>
+				</museum>
+
+				<museum>
+					<button-dispatch>down:simons3</button-dispatch>
+					<panel-id>simons3</panel-id>
+					<imagepath>library/images/simons4.png</imagepath>
+					<imagepath-2>library/images/simons3.png</imagepath-2>
+					<title>George W. Simons, Jr. Planning Collection</title>
+					<location>Document Range,</location>
+					<year>1899-1993</year>
+					<excerpt>George W. Simons, Jr. was born in Portland, Oregon on February 23, 1891. He moved to Jacksonville, Florida in 1916 where he began his career in engineering as a prominent city planner in the Southeastern United States during the twentieth century.</excerpt>
+					<museum-text>Simons, Jr.’s lifetime work for which he was to become known - as a planning, zoning and municipal consultant - commenced in 1928, when he was hired by the City of Jacksonville to develop a comprehensive city plan and zoning ordinance. The following year, the city of Miami Beach hired him to prepare its first zoning ordinance. Over the next forty years, he was retained by over seventy municipalities to prepare planning documents and reports. He also created economic and marketing studies for Jacksonville and Wilmington, North Carolina.</museum-text>
+				</museum>
+
+				<!-- TEST -->
+
+				<museum>
+					<button-dispatch>down:sollee1</button-dispatch>
+					<panel-id>sollee1</panel-id>
+					<imagepath>library/images/sollee4.png</imagepath>
+					<imagepath-2>library/images/sollee2.png</imagepath-2>
+					<title>Arthur N. Sollee Papers</title>
+					<location>Document Range,</location>
+					<year>1927-1984</year>
+					<excerpt>As Director of the Jacksonville Expressway Authority during the pivotal transportation years of 1956-1972, Arthur Neyle Sollee, Sr., was a major influence in the development of the Jacksonville, Florida road system in Duval County, Florida in the mid-twentieth century.</excerpt>
+					<museum-text>The collection consists of correspondence, subject files and reports, and newspaper clippings relating to transportation projects in Duval County.  It also includes materials relating to the site selection of the University of North Florida; project files relating to the planning of the Dames Point Bridge.</museum-text>
+				</museum>
+
+				<museum>
+					<button-dispatch>down:sollee2</button-dispatch>
+					<panel-id>sollee2</panel-id>
+					<imagepath>library/images/sollee3.png</imagepath>
+					<imagepath-2>library/images/sollee1.png</imagepath-2>
+					<title>Arthur N. Sollee Papers</title>
+					<location>Document Range,</location>
+					<year>1927-1984</year>
+					<excerpt>As Director of the Jacksonville Expressway Authority during the pivotal transportation years of 1956-1972, Arthur Neyle Sollee, Sr., was a major influence in the development of the Jacksonville, Florida road system in Duval County, Florida in the mid-twentieth century.</excerpt>
+					<museum-text>Sollee was appointed Assistant County Engineer for Duval County and, in 1939, County Engineer. In 1945, he received an additional appointment as the County's first Zoning Director. Notable achievements during his seventeen-year tenure as County Engineer include the preparation of a Duval County topographic map, significant drainage improvements, gasoline tax revenue revision, and numerous right-of-way acquisitions for future highways.</museum-text>
+				</museum>
+
+				<museum>
+					<button-dispatch>down:ua</button-dispatch>
+					<panel-id>ua</panel-id>
+					<imagepath>library/images/ua2.png</imagepath>
+					<imagepath-2>library/images/ua1.png</imagepath-2>
+					<title>University Archives</title>
+					<location>Document Range,</location>
+					<year>1969-Present</year>
+					<excerpt>The Archives is the repository for historical resources relating to the University. Our goal is to serve as the depository of all university publications and records of historical and research importance.</excerpt>
+					<museum-text>The collection consists of college catalogs, publications, memorabilia, photographs and other materials pertaining to the University and its faculty, staff, and students.  In addition to collecting official university documents, we are also eager to acquire materials that document and depict the activities and functions of our entire university community, encompassing faculty, staff and students.</museum-text>
+				</museum>
+
+				<museum>
+					<button-dispatch></button-dispatch>
+					<panel-id>sc</panel-id>
+					<imagepath>library/images/sc1.png</imagepath>
+					<imagepath-2>library/images/sc1.png</imagepath-2>
+					<title>Special Collections & University Archives</title>
+					<location>To make a donation or gift</location>
+					<year>Contact Us!</year>
+					<excerpt>Aisha Johnson                                                                       Head of Special Collections and Archives                                (904) 620-1533                                           a.johnson@unf.edu</excerpt>
+					<museum-text></museum-text>
+				</museum>
+
+			</RendererData>
+		</RenderKit>
+	</Album>
+</cml>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml rootDirectory="assets/" tuio="false" simulator="true">
+
+	<LibraryKit>
+		<Library type="swf" src="assets/openexhibits_assets.swf" />
+	</LibraryKit>
+
+	<PhotoAlbumViewer id="av" x="0" y="0" rotation="0" autoTextLayout="false" linkAlbums="true" gestureReleaseInertia="true" resetTime="600" videoScrollAction="stop" playOnComplete="true">
+
+		<Album id="front" loop="true" horizontal="true" applyMask="true" margin="8" visible="true" targetParent="false" mouseChildren="true" clusterBubbling="true" dragGesture="n-drag-album">
+
+			<Image name="" src="1.png" width="1920" height="1080"/>
+
+			<Image name="" src="2.png" width="1920" height="1080"/>
+
+			<Image name="" src="3.png" width="1920" height="1080"/>
+
+			<Image name="" src="4.png" width="1920" height="1080"/>
+
+			<Image name="" src="5.png" width="1920" height="1080"/>
+
+			<Image name="" src="6.png" width="1920" height="1080"/>
+
+			<Image name="" src="7.png" width="1920" height="1080"/>
+
+			<Image name="" src="8.png" width="1920" height="1080"/>
+
+			<Image name="" src="9.png" width="1920" height="1080"/>
+
+			<Image name="" src="10.png" width="1920" height="1080"/>
+
+			<Image name="" src="11.png" width="1920" height="1080"/>
+
+			<Image name="" src="12.png" width="1920" height="1080"/>
+
+			<Image name="" src="13.png" width="1920" height="1080"/>
+
+			<Image name="" src="14.png" width="1920" height="1080"/>
+
+			<Image name="" src="15.png" width="1920" height="1080"/>
+
+			<Image name="" src="16.png" width="1920" height="1080"/>
+
+			<Image name="" src="17.png" width="1920" height="1080"/>
+
+			<Image name="" src="18.png" width="1920" height="1080"/>
+
+			<Image name="" src="19.png" width="1920" height="1080"/>
+
+			<Image name="" src="20.png" width="1920" height="1080"/>
+
+			<Image name="" src="21.png" width="1920" height="1080"/>
+
+			<Image name="" src="22.png" width="1920" height="1080"/>
+
+			<Image name="" src="23.png" width="1920" height="1080"/>
+
+			<Image name="" src="24.png" width="1920" height="1080"/>
+
+			<Image name="" src="25.png" width="1920" height="1080"/>
+
+			<Image name="" src="26.png" width="1920" height="1080"/>
+
+			<Image name="" src="27.png" width="1920" height="1080"/>
+
+			<Image name="" src="28.png" width="1920" height="1080"/>
+
+			<Image name="" src="29.png" width="1920" height="1080"/>
+
+			<Image name="" src="30.png" width="1920" height="1080"/>
+
+			<Image name="" src="31.png" width="1920" height="1080"/>
+
+			<Image name="" src="32.png" width="1920" height="1080"/>
+
+			<Image name="" src="33.png" width="1920" height="1080"/>
+
+			<Image name="" src="34.png" width="1920" height="1080"/>
+
+			<Image name="" src="35.png" width="1920" height="1080"/>
+
+			<Image name="" src="36.png" width="1920" height="1080"/>
+
+			<Image name="" src="37.png" width="1920" height="1080"/>
+
+			<Image name="" src="38.png" width="1920" height="1080"/>
+
+			<Image name="" src="39.png" width="1920" height="1080"/>
+
+		</Album>
+
+		<Album id="back" alpha=".5" loop="true" applyMask="true" horizontal="true" margin="8" visible="false" targetParent="false" dragGesture="n-drag-album">
+
+			<!-- 1 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures" textAlign="center" width="1920"/>
+				<Text y="300" x="460" text="October 2nd, 2015" width="1000" height="1000" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true" />
+			</TouchContainer>
+
+			<!-- 2 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Connection n. and Connect v." width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 3 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Designed by Mary Ratcliff" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 4 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Planning Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Original sketch and model of Connection n." width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 5 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Planning Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="These blueprints were used as a guide for rolling steel at the fabrication shop" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 6 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Planning Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Model of Connect v." width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 7 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Construction Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Coming in as 13 pieces of straight pipe, each one left the fabrication shop having specific lengths and radiuses of the curves" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 8 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Construction Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="The pipe was cut down to more manageable lengths at the sculpture yard" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 9 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Construction Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Connect v. was made complete with steel hemispheres ordered through King Architectural Metals" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 10 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Construction Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Partial construction of Connection n." width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 11 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Construction Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Layers of fiberglass and automotive body filler were used to create smooth transitions along the metal pipe" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 12 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Construction Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Blue exterior painter’s tape was used to mold and form the joints" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 13 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Construction Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Blue exterior painter’s tape was used to mold and form the joints" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 14 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Painting Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Base coat applied" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 15 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Painting Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Orange was the first color added" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 16 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Painting Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="More colors were gradually added to achieve a natural transition between them" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 17 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Painting Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="The drying process" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 18 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Painting Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Connect v. ready for installation" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 19 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Nieman and Company and Sims Crane and Equipment Co. (simscrane.com) donated their services for the installation process" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 20 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="They transported the sculptures to the library with a crane and a flatbed trailer" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 21 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Connection n. being transported" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 22 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Connection n. being transported" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 23 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Connect v. being transported" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 24 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="After arriving to the location the crane began slowly lifting Connection n. to the second story" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 25 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Because of its size it had to be rotated just right to get over the railing and through the columns" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 26 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Almost..." width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 27 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="After getting to the second story, it was a group effort transporting Connection n. into its designated space" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 28 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Connection n.'s new home" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 29 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Connect v. made its way to the second floor via the stairs" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 30 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Connect v. made its way to the second floor via the stairs" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 31 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Connect v.'s new home" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 32 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Bolts that would go into the concrete had to be cut down to size using an angle grinder" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 33 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Holes were first drilled into the concrete for the bolts" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 34 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="An epoxy was used to lock the bolts into the concrete" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 35 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="One by one the sculpture students filled every hole with the epoxy" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 36 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080" lineStroke="0"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="Bolts were hammered down through each of the sculpture's feet" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 37 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" fontSize="50" color="0xFFFFFF" text="UNF Library Sculptures - Installation Phase" textAlign="center" width="1920"/>
+				<Text class="description" y="300" text="The finished product" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 38 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures - Installation Phase" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Mary with her sculptures" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+			<!-- 39 -->
+			<TouchContainer width="1920" height="1080">
+				<Graphic shape="rectangle" color="0x000000" width="1920" height="1080"/>
+				<Text class="title" y="220" text="UNF Library Sculptures" width="1920" fontSize="50" textAlign="center" color="0xFFFFFF"/>
+				<Text class="description" y="300" text="Mary Ratcliff, Dr. Walter R. Graham Jr., Dr. Elizabeth Curry, Prof. Jennifer Hager" width="1920" color="0xFFFFFF" fontSize="30" textAlign="center" wordWrap="true"/>
+			</TouchContainer>
+
+		</Album>
+
+		<Menu class="menu_container" alpha="0.6" position="bottom" paddingLeft="30" paddingBottom="25" paddingRight="20" autoHide="false" visible="true">
+
+			<Button id="back-btn" class="back_btn" dispatch="down:back" hit="back-hit" initial="back-up" down="back-down" up="back-up" out="back-up">
+				<Container id="back-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="18" y="58" color="0xFFFFFF" scale="3" rotation="-90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="back-down">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="18" y="58" color="0xCCCCCC" scale="3" rotation="-90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="back-hit">
+					<Graphic id="back-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+			<Button id="forward-btn" class="forward_btn" dispatch="down:forward" hit="forward-hit" initial="forward-up" down="forward-down" up="forward-up" out="forward-up">
+				<Container id="forward-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="62" y="23" color="0xFFFFFF" scale="3" rotation="90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="forward-down">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="62" y="23" color="0xCCCCCC" scale="3" rotation="90" classRef="org.openexhibits.assets.ArrowFill" />
+				</Container>
+				<Container id="forward-hit">
+					<Graphic id="forward-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+			<Button id="info-btn" class="info_btn" dispatch="down:info" hit="info-hit" initial="info-up" down="info-down" up="info-up" out="info-up">
+				<Container id="info-up">
+					<Graphic alpha="1" shape="circle" radius="40" lineStroke="3" color="0x282E33" />
+					<SWF alpha="1" x="30" y="16" color="0xFFFFFF" scale="3" classRef="org.openexhibits.assets.Info" />
+				</Container>
+				<Container id="info-down">
+					<Graphic id="info-bg-down" shape="circle" radius="40" lineStroke="3" color="0x495E67" />
+					<SWF alpha="1" x="30" y="16" color="0xCCCCCC" scale="3" classRef="org.openexhibits.assets.Info" />
+				</Container>
+				<Container id="info-hit">
+					<Graphic id="info-hit-bg" shape="circle" radius="40" color="0x666666" alpha="0" />
+				</Container>
+			</Button>
+
+		</Menu>
+
+	</PhotoAlbumViewer>
+
+
+</cml>
